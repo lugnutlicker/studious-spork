@@ -1,1 +1,52 @@
+# Core dependencies
 requests
+
+# Solana SDK
+solana>=0.36.0
+solders>=0.20.0
+
+# Data analysis and backtesting
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Technical analysis
+ta-lib>=0.4.25
+pandas-ta>=0.3.14b
+
+# Backtesting frameworks
+vectorbt>=0.25.0
+backtesting>=0.3.3
+
+# API clients and web requests
+aiohttp>=3.8.0
+websockets>=11.0
+httpx>=0.24.0
+
+# Data visualization
+plotly>=5.15.0
+
+# Configuration and environment
+python-decouple>=3.8
+pydantic>=2.0.0
+
+# Async support
+asyncio-mqtt>=0.13.0
+
+# Machine learning (optional for advanced strategies)
+scikit-learn>=1.3.0
+
+# Database support (sqlite3 is built into Python)
+# sqlite3
+
+# Logging
+loguru>=0.7.0
+
+# Jupiter API SDK (if available)
+# Note: May need to implement custom Jupiter integration
+
+# Development and testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
